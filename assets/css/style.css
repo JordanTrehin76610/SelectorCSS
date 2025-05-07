@@ -1,0 +1,93 @@
+body {
+    width: 99vw;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+/* EXERCICE 1  */
+
+
+.carnivore {
+    color: red;
+}
+
+.herbivore {
+    color: green
+}
+
+.carnivore,
+.herbivore {
+    text-align: center;
+}
+
+#lion {
+    text-transform: uppercase;
+}
+
+
+/* EXERCICE 2 */
+
+
+.carre p {
+    color: purple;
+}
+
+.carre p:first-child {
+    font-weight: bold;
+}
+
+span:has(+p) {
+    color: blue;
+}
+
+.carre p:nth-of-type(2) {
+    font-style: italic;
+}
+
+
+
+/* EXERCICE 3 */
+
+
+[data-type=vêtement] {
+    color: lightblue;
+}
+
+[data-type=électronique] {
+    border: 1px solid gray;
+}
+
+[data-type=jouet] {
+    text-decoration: underline;
+}
+
+
+
+/* EXERCICE 4 */
+
+
+.galerie {
+    display: inline-block;
+}
+
+.galerie img:hover {
+    transform: scale(2);
+}
+
+.galerie img:nth-child(odd) {
+    border: 1px solid green;
+    padding: 2rem;
+}
+
+.galerie img:nth-child(even) {
+    border: 1px solid orange;
+    padding: 2rem;
+}
+
+.galerie img:first-child {
+    border-radius: 3rem;
+}
